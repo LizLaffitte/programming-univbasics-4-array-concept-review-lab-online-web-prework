@@ -1,8 +1,9 @@
 def find_element_index(array, value_to_find)
-  index
   for element in array
     if element == value_to_find
-      index = 
+      index = array.index(value_to_find)
+    else
+      continue
 end
 
 def find_max_value(array)
